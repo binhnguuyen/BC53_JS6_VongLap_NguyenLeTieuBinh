@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- Bài 1 -->
+    <br><br><br><br>
+    <label for="">Nhập vào tổng dãy số để tìm số nguyên dương nhỏ nhất</label>
+    <input type="text" name="sum" id="sum" class="form-control" placeholder="Nhập tổng" aria-describedby="helpId" />
+    <button onclick="findSmallestNum()" id="calculation">
+        Tìm số nguyên dương nhỏ nhất
+    </button>
+    <div id="result1" class=""></div>
+
+    <!-- Bài 2 -->
+    <br><br><br><br>
+    <label for="">Nhập vào x</label>
+    <input type="text" name="numX" id="numX" class="form-control" placeholder="Nhập số x" aria-describedby="helpId" />
+    <label for="">Nhập vào số mũ n</label>
+    <input type="text" name="numN" id="numN" class="form-control" placeholder="Nhập số mũ n"
+        aria-describedby="helpId" />
+    <button onclick="findTotal()" id="calculation">
+        Tính tổng x + x^2 + ... + x^n
+    </button>
+    <div id="result2" class=""></div>
+
+    <!-- Bài 3 -->
+    <br><br><br><br>
+    <label for="">Nhập vào n để tính giai thừa</label>
+    <input type="text" name="giaiThuaN" id="giaiThuaN" class="form-control" placeholder="Nhập số n"
+        aria-describedby="helpId" />
+    <button onclick="timGiaiThua()" id="calculation">
+        Tính giai thừa 1*2*...*n
+    </button>
+    <div id="result3" class=""></div>
+
+    <!-- Bài 4 -->
+    <br><br><br><br>
+    <label for="">Click để tạo thẻ mới</label>
+    <input type="text" name="numNewClass" id="numNewClass" class="form-control" placeholder="Nhập số thẻ mới muốn tạo"
+        aria-describedby="helpId" />
+    <button onclick="taoNewClass()" id="creatEle">
+        Tạo thẻ mới
+    </button>
+    <div id="result4" class=""></div>
+
+    <!-- Bài 5 -->
+    <br><br><br><br>
+    <label for="">Nhập vào số nguyên lớn hơn 1</label>
+    <input type="text" name="number" id="number" class="form-control" placeholder="Nhập vào số nguyên lớn hơn 1"
+        aria-describedby="helpId" />
+    <button onclick="timSoNguyenTo()" id="calculation">
+        Tìm các số nguyên tố
+    </button>
+    <div id="result5" class=""></div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
